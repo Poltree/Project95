@@ -9,7 +9,7 @@ var firebaseConfig = {
     measurementId: "G-T8YFP5NFLV"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+ firebase.initializeApp(firebaseConfig);
 
 function addUser(){
     user_name = document.getElementById("user_name").value;
